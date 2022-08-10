@@ -1,1 +1,3 @@
-inp = input("Enter a number: ")
+<?php
+    $hello = "Hello World";
+    echo $hello;
