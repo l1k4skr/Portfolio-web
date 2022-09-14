@@ -2,12 +2,21 @@
     margin: 0px;
 }
 body {
-    background-color: #d4bebe;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    
+    color: #fff;
     margin: 0px;
 
 }
 .cabecera {
-    background-color: #020202;
+    background-color: #020202 ;
+    opacity: 0.8;
     text-align: center;
 
 
@@ -20,6 +29,7 @@ body {
     padding: 10px;
 }
 .barra-navegacion{
+    text-align: center;
     padding: 20px;
     margin:0px;
     border: solid 1px #d8db0d;
@@ -29,6 +39,7 @@ body {
 
 }
 .barra-navegacion a {
+    margin: 50px;
     color: #0c6410;
     text-decoration: none;
     font-size: 20px;
@@ -36,12 +47,31 @@ body {
     padding: 10px;
     padding-right: 50px;
     padding-left: 50px;
-    margin-left:150px;
     border-radius: 600px;
 }
 .barra-navegacion a:hover {
     background-color: #d8db0d;
+    color: #020202;}
+.inicio {
+    position: relative;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(218, 211, 211);
+    margin: 10px auto;
+}
+#titulo {
+    font-size: 50px;
+    font-family: Roboto;
+    text-decoration: underline;
     color: #020202;
-    border:solid;
-    margin-left: 149px;
+    text-align: center;
+    padding: 20px;
+    color : #949103;
+}
+#titulo2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Roboto;
+    padding: 20px;
+    color : #080808;
 }
